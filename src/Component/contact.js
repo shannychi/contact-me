@@ -17,7 +17,7 @@ const ContactForm = () => {
     return(
             <div className="container mt-5">
       <h1 className="mb-3">Contact Me</h1>
-      <h4><small>Hi there contact me to ask me about anything you have in mind.</small></h4>
+      <h4><small>Hi there, contact me to ask me about anything you have in mind.</small></h4>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="firstName">
@@ -39,7 +39,7 @@ const ContactForm = () => {
           <label className="form-label" htmlFor="message">
             Message
           </label>
-          <textarea className="form-control" id="message" placeholder="send me a message i will reply as soon as possible" required />
+          <textarea className="form-control" id="message" placeholder="send me a message and i will reply you  as soon as possible" required />
         </div>
         <div>
             <label>
@@ -48,7 +48,7 @@ const ContactForm = () => {
             </label>
         </div>
         <p></p>
-        <button className="btn__submit" type="submit">
+        <button class="btn btn-primary" id="btn__submit" type="submit" >
           {formStatus}
         </button>
       </form>
