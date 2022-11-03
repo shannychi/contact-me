@@ -19,27 +19,31 @@ const ContactForm = () => {
       <h1 className="mb-3">Contact Me</h1>
       <h4><small>Hi there, contact me to ask me about anything you have in mind.</small></h4>
       <form onSubmit={onSubmit}>
-        <div className="mb-3">
+             <div className="row">
+        <div className="col-sm-10">
           <label className="form-label" htmlFor="firstName">
             First name
           </label>
-          <input className="form-control" type="text" id="first_name" placeholder="enter your first name" required />
+          <input className="form-control " type="text" id="first_name" placeholder="enter your first name" required />
+          </div>
+          <div className="col-sm-10">
           <label className="form-label" htmlFor="lastName">
             Last name
           </label>
           <input className="form-control" type="text" id="last_name" placeholder="enter your last name" required />
         </div>
-        <div className="mb-3">
+        </div>
+        <div className="col-sm-10">
           <label className="form-label" htmlFor="email">
             Email
           </label>
           <input className="form-control" type="email" id="email" placeholder="yourname@email.com" required />
         </div>
-        <div className="mb-3">
+        <div className="col-sm-10">
           <label className="form-label" htmlFor="message">
             Message
           </label>
-          <textarea className="form-control" id="message" placeholder="send me a message and i will reply you  as soon as possible" required />
+          <textarea className="form-control" rows="4" id="message" placeholder="send me a message and i will reply you  as soon as possible" required />
         </div>
         <div>
             <label>
