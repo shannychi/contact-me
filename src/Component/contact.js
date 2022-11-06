@@ -24,13 +24,13 @@ const ContactForm = () => {
           <label className="form-label" htmlFor="firstName">
             First name
           </label>
-          <input className="form-control " type="text" id="first_name" placeholder="enter your first name" required />
+          <input className="form-control " type="text" id="first_name" placeholder="Enter your first name" required />
           </div>
           <div className="col-sm">
           <label className="form-label" htmlFor="lastName">
             Last name
           </label>
-          <input className="form-control" type="text" id="last_name" placeholder="enter your last name" required />
+          <input className="form-control" type="text" id="last_name" placeholder="Enter your last name" required />
         </div>
         </div>
         <div className="col-sm">
@@ -43,7 +43,7 @@ const ContactForm = () => {
           <label className="form-label" htmlFor="message">
             Message
           </label>
-          <textarea className="form-control" rows="4" id="message" placeholder="send me a message and i will reply you  as soon as possible" required />
+          <textarea className="form-control" rows="4" id="message" placeholder="send me a message and i will reply you  as soon as possible...." required />
         </div>
         <div>
             <label>
