@@ -52,11 +52,11 @@ const ContactForm = () => {
             </label>
         </div>
         <p></p>
-          <div class=" d-grip gap-2 d-md-flex">
+          
         <button class="btn btn-primary w-100 p-3" id="btn__submit" type="submit">
             {formStatus}
         </button>
-</div>
+
       </form>
         </div>
     )
