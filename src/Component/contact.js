@@ -20,26 +20,26 @@ const ContactForm = () => {
       <h4><small>Hi there, contact me to ask me about anything you have in mind.</small></h4>
       <form onSubmit={onSubmit}>
              <div className="row">
-        <div className="col-sm-10">
+        <div className="col-sm">
           <label className="form-label" htmlFor="firstName">
             First name
           </label>
           <input className="form-control " type="text" id="first_name" placeholder="enter your first name" required />
           </div>
-          <div className="col-sm-10">
+          <div className="col-sm">
           <label className="form-label" htmlFor="lastName">
             Last name
           </label>
           <input className="form-control" type="text" id="last_name" placeholder="enter your last name" required />
         </div>
         </div>
-        <div className="col-sm-10">
+        <div className="col-sm">
           <label className="form-label" htmlFor="email">
             Email
           </label>
           <input className="form-control" type="email" id="email" placeholder="yourname@email.com" required />
         </div>
-        <div className="col-sm-10">
+        <div className="col-sm">
           <label className="form-label" htmlFor="message">
             Message
           </label>
