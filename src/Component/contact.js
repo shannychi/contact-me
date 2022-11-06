@@ -53,7 +53,7 @@ const ContactForm = () => {
         </div>
         <p></p>
           <div class=" d-grip gap-2 d-md-flex">
-        <button class="btn btn-primary btn-sm" id="btn__submit" type="submit" style={{width:100%}}>
+        <button class="btn btn-primary btn-sm" id="btn__submit" type="submit" style={width:100%}>
             {formStatus}
         </button>
 </div>
